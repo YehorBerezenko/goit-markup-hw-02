@@ -1,6 +1,7 @@
 body{
     font-family: "Roboto", sans-serif;
     color:#434455;
+    background-color: #FFFFFF;
     
 }
 ul{
@@ -22,6 +23,10 @@ a{
 }
 .header-logo-part{
     color: #2e2f42;
+}
+
+.address{
+    font-style: normal;
 }
 
 .header-menu-list{
@@ -84,9 +89,12 @@ a{
     
 }
 
+
 .section-team{
     background-color:#f4f4fd ;
 }
+
+
 
 .section-team-title{
     font-weight: 700;
@@ -181,4 +189,5 @@ a{
     --grey: rgba(46, 47, 66, 0.7);
     --white: #fff;
     --dairy: #fcfcfc;*/
+    
     
