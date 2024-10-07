@@ -12,6 +12,22 @@ a{
     text-decoration: none;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* ---------------------------------------HEADER-------------------------------- */
+
 .header-logo{
     font-family:"Raleway", sans-serif;
     font-weight: 700;
@@ -42,12 +58,24 @@ a{
     color:#2e2f42;
 }
 
+.header-menu-link:hover,
+.header-menu-link:focus{
+    color: #404bbf;
+}
+
+
 .header-contacts-link{  
         font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #434455;
 }
+
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+    color: #404bbf;
+}
+/* ----------------------------FIRST SECTION(HERO)------------------------------ */
 
 .section-main{
     background-color:#2e2f42 ;
@@ -71,8 +99,16 @@ a{
     color: #fff;
     background: #4d5ae5;
     cursor: pointer;
-    
 }
+
+.section-main-button:hover,
+.section-main-button:focus{
+    background-color: #404BBF;
+}
+
+/* ----------------------------SECOND SECTION(OPPORTUNITIES)------------------------------ */
+
+
 .section-opportunities-name{  
     font-weight: 500;
     font-size: 20px;
@@ -89,11 +125,15 @@ a{
     
 }
 
+/* ----------------------------THIRD SECTION(OUR TEAM)------------------------------ */
 
 .section-team{
     background-color:#f4f4fd ;
 }
 
+.section-team-member{
+    background-color: #FFFFFF;
+}
 
 
 .section-team-title{
@@ -114,6 +154,7 @@ a{
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    
 }
 
 .section-team-pos{
@@ -124,6 +165,8 @@ a{
         text-align: center;
         
 }
+
+/* ----------------------------FOURTH SECTION(PORTFOLIO)------------------------------ */
 
 .section-portfolio-title{
     font-weight: 700;
@@ -149,6 +192,8 @@ a{
     letter-spacing: 0.02em;
     
 }
+
+/* ----------------------------FOOTER------------------------------ */
 
 .footer{
     background-color:#2e2f42 ;
